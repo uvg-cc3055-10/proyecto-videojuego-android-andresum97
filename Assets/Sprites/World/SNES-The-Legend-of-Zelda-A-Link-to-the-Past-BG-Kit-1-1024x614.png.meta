@@ -3,7 +3,10 @@ guid: ea212a6490ec0dc4da502957f8400d4f
 timeCreated: 1525577041
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: SNES-The-Legend-of-Zelda-A-Link-to-the-Past-BG-Kit-1-1024x614_0
+    21300002: SNES-The-Legend-of-Zelda-A-Link-to-the-Past-BG-Kit-1-1024x614_1
+    21300004: SNES-The-Legend-of-Zelda-A-Link-to-the-Past-BG-Kit-1-1024x614_2
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,9 +70,71 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SNES-The-Legend-of-Zelda-A-Link-to-the-Past-BG-Kit-1-1024x614_0
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 441
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES-The-Legend-of-Zelda-A-Link-to-the-Past-BG-Kit-1-1024x614_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 523
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES-The-Legend-of-Zelda-A-Link-to-the-Past-BG-Kit-1-1024x614_2
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 523
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
