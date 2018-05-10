@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour {
 
@@ -36,10 +37,25 @@ public class PlayerMovement : MonoBehaviour {
             anim.SetBool("walking", false);
         }
     }
-/**
-    private void FixedUpdate()
+
+    /* Prueba para que cambie de escena y de nivel */
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        rg2d.MovePosition(rg2d.position + mov*moveSpeed*Time.deltaTime);
+        if (collision.tag.Equals("Puerta1"))
+        {
+            SceneManager.LoadScene("Casa interior");
+        }
+        if (collision.tag.Equals("Puerta2"))
+        {
+            SceneManager.LoadScene("Game1");
+            transform.position = new Vector3(0,-3,0);
+        }
     }
-    */
+
+    /**
+        private void FixedUpdate()
+        {
+            rg2d.MovePosition(rg2d.position + mov*moveSpeed*Time.deltaTime);
+        }
+        */
 }

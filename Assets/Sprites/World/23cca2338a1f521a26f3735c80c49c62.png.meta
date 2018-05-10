@@ -23,6 +23,12 @@ TextureImporter:
     21300032: 23cca2338a1f521a26f3735c80c49c62_16
     21300034: 23cca2338a1f521a26f3735c80c49c62_14
     21300036: puerta
+    21300038: 23cca2338a1f521a26f3735c80c49c62_17
+    21300040: 23cca2338a1f521a26f3735c80c49c62_18
+    21300042: 23cca2338a1f521a26f3735c80c49c62_19
+    21300044: 23cca2338a1f521a26f3735c80c49c62_20
+    21300046: Tierra1
+    21300048: Tierra2
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -371,6 +377,90 @@ TextureImporter:
         height: 17
       alignment: 9
       pivot: {x: 0.5, y: 0.46550116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 23cca2338a1f521a26f3735c80c49c62_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 165
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 23cca2338a1f521a26f3735c80c49c62_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 23cca2338a1f521a26f3735c80c49c62_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 23cca2338a1f521a26f3735c80c49c62_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tierra1
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 122
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tierra2
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 111
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
