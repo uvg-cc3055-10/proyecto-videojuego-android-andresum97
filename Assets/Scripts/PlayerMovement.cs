@@ -5,7 +5,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
 
-public class PlayerMovement : MonoBehaviour {
+public class PlayerMovement : MonoBehaviour
+{
 
     Animator anim;
     Rigidbody2D rg2d;
@@ -14,31 +15,33 @@ public class PlayerMovement : MonoBehaviour {
     CircleCollider2D attackCollider;
     bool movePrevent;
     public int Health;
-    public int maxHealth=5;
+    public int maxHealth = 5;
     // Use this for initialization
 
     [Range(1f, 20f)]
     public float moveSpeed = 5f;
-    void Start () {
+    void Start()
+    {
         anim = GetComponent<Animator>();
         rg2d = GetComponent<Rigidbody2D>();
         attackCollider = transform.GetChild(0).GetComponent<CircleCollider2D>();
         attackCollider.enabled = false;
         Health = maxHealth;
-	}
+    }
 
     // Update is called once per frame
-    void Update() {
+    void Update()
+    {
         mov = new Vector2(CrossPlatformInputManager.GetAxis("Horizontal"), CrossPlatformInputManager.GetAxis("Vertical"));
-       // Debug.Log("X"+mov.x);
-      //  Debug.Log("Y"+mov.y);
-    /**
-        dirX = CrossPlatformInputManager.GetAxis("Horizontal")* moveSpeed * Time.deltaTime;
-        dirY = CrossPlatformInputManager.GetAxis("Vertical")* moveSpeed * Time.deltaTime;
-        mov = new Vector2(transform.position.x + dirX, transform.position.y + dirY);
-        //transform.position = new Vector2(transform.position.x + dirX, transform.position.y + dirY);
-        transform.position = mov; */
-        if(mov.x != 0 || mov.y!=0 )
+        // Debug.Log("X"+mov.x);
+        //  Debug.Log("Y"+mov.y);
+        /**
+            dirX = CrossPlatformInputManager.GetAxis("Horizontal")* moveSpeed * Time.deltaTime;
+            dirY = CrossPlatformInputManager.GetAxis("Vertical")* moveSpeed * Time.deltaTime;
+            mov = new Vector2(transform.position.x + dirX, transform.position.y + dirY);
+            //transform.position = new Vector2(transform.position.x + dirX, transform.position.y + dirY);
+            transform.position = mov; */
+        if (mov.x != 0 || mov.y != 0)
         {
             anim.SetFloat("movX", mov.x);//dirX);
             anim.SetFloat("movY", mov.y);//dirY);
@@ -69,24 +72,27 @@ public class PlayerMovement : MonoBehaviour {
         //Corregir esta parte debido que el movimiento esta mal aun
         if (mov != Vector2.zero)
         {
-            if(mov.x == 0 && mov.y > 0)
+            if (mov.x == 0 && mov.y > 0)
             {
                 attackCollider.offset = new Vector2(0, 0.5f);
-            }else
+            }
+            else
             if (mov.x == 0 && mov.y < 0)
             {
                 attackCollider.offset = new Vector2(0, -0.5f);
-            }else
-            if (mov.x > 0 && mov.y== 0)
+            }
+            else
+            if (mov.x > 0 && mov.y == 0)
             {
                 attackCollider.offset = new Vector2(0.5f, 0);
-            }else
+            }
+            else
             if (mov.x < 0 && mov.y == 0)
             {
-                attackCollider.offset = new Vector2(-0.5f,0);
+                attackCollider.offset = new Vector2(-0.5f, 0);
             }
         }
-            //attackCollider.offset = new Vector2(mov.x / 2, mov.y / 2);
+        //attackCollider.offset = new Vector2(mov.x / 2, mov.y / 2);
 
         AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
         bool attacking = stateInfo.IsName("Player_Attack");
@@ -110,12 +116,12 @@ public class PlayerMovement : MonoBehaviour {
         }
     }
 
-    
-        private void FixedUpdate()
-        {
+
+    private void FixedUpdate()
+    {
         // rg2d.MovePosition(rg2d.position + mov*moveSpeed*Time.deltaTime);
         rg2d.velocity = new Vector2(mov.x * moveSpeed, mov.y * moveSpeed);//Este funciona mejor, pero aun tiene errores
-        }
+    }
 
     void PreventMovement()
     {
@@ -139,5 +145,12 @@ public class PlayerMovement : MonoBehaviour {
     public void Damage(int dmg)
     {
         Health -= dmg;
+    }
+    public void cure(int cure)
+    {
+        if (Health <= 5)
+        {
+            Health += cure;
+        }
     }
 }
