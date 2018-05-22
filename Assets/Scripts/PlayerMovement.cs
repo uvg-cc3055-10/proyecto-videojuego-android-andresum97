@@ -33,6 +33,11 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         mov = new Vector2(CrossPlatformInputManager.GetAxis("Horizontal"), CrossPlatformInputManager.GetAxis("Vertical"));
+        if (Math.Abs(mov.x) < 0.05f)
+            mov.x = 0;
+        if (Math.Abs(mov.y) < 0.05f)
+            mov.y = 0;
+        
         // Debug.Log("X"+mov.x);
         //  Debug.Log("Y"+mov.y);
         /**
@@ -42,15 +47,16 @@ public class PlayerMovement : MonoBehaviour
             //transform.position = new Vector2(transform.position.x + dirX, transform.position.y + dirY);
             transform.position = mov; */
         if (mov.x != 0 || mov.y != 0)
-        {
-            anim.SetFloat("movX", mov.x);//dirX);
-            anim.SetFloat("movY", mov.y);//dirY);
+        {    
             anim.SetBool("walking", true);
         }
         else
         {
             anim.SetBool("walking", false);
         }
+
+        anim.SetFloat("movX", mov.x);//dirX);
+        anim.SetFloat("movY", mov.y);//dirY);
 
         SwordAttack();
 
