@@ -160,6 +160,10 @@ public class PlayerMovement : MonoBehaviour
         {
             Health += cure;
         }
+        if (Health >5)
+        {
+            Health = 5;
+        }
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
@@ -178,27 +182,27 @@ public class PlayerMovement : MonoBehaviour
         }
         if (collision.tag.Equals("PuertaAConector"))
         {
-            transform.position = new Vector3(-27.53f, 61.57f, 0f);
+            transform.position = new Vector3(-27.57f, 61.57f, 0f);
         }
 
         if (collision.tag.Equals("3-Conector"))
         {
-            transform.position = new Vector3(-23.42f, 64.01f, 0f);
+            transform.position = new Vector3(-23.31f, 64.37f, 0f);
         }
 
         if (collision.tag.Equals("Conector-3"))
         {
-            transform.position = new Vector3(-23.02f, 72.31f, 0f);
+            transform.position = new Vector3(-22.96f, 72.35f, 0f);
         }
 
         if (collision.tag.Equals("CuartoFinal"))
         {
-            transform.position = new Vector3(-13.52f, 61.27f, 0f);
+            transform.position = new Vector3(-13.37f, 61.37f, 0f);
         }
 
         if (collision.tag.Equals("PuertaFinal"))
         {
-            transform.position = new Vector3(-23.72f, 89.92f, 0f);
+            transform.position = new Vector3(-23.52f, 90.09f, 0f);
         }
         if (collision.tag.Equals("NotaFinal"))
         {
