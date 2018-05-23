@@ -154,9 +154,22 @@ public class PlayerMovement : MonoBehaviour
     }
     public void cure(int cure)
     {
-        if (Health <= 5)
+        if (Health < 5)
         {
             Health += cure;
         }
     }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag.Equals("Puerta1"))
+        {
+            transform.position = new Vector3(-52.01f, 25.29f,0f);
+        }
+        if (collision.tag.Equals("Puerta2"))
+        {
+            transform.position = new Vector3(-52.11f, 37.79f, 0f);
+        }
+    }
+
 }

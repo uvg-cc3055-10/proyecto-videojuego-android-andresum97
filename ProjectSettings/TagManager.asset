@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Puerta1
   - Puerta2
+  - PuertaAlTemplo
   layers:
   - Default
   - TransparentFX
