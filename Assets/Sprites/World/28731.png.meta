@@ -34,6 +34,16 @@ TextureImporter:
     21300054: 28731_27
     21300056: 28731_28
     21300058: 28731_29
+    21300060: 28731_30
+    21300062: 28731_31
+    21300064: 28731_32
+    21300066: 28731_33
+    21300068: 28731_34
+    21300070: 28731_35
+    21300072: riel
+    21300074: 28731_36
+    21300076: 28731_37
+    21300078: 28731_38
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -208,10 +218,10 @@ TextureImporter:
       name: 28731_6
       rect:
         serializedVersion: 2
-        x: 15
-        y: 1771
-        width: 16
-        height: 16
+        x: 16
+        y: 1772
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,10 +274,10 @@ TextureImporter:
       name: 28731_10
       rect:
         serializedVersion: 2
-        x: 318
+        x: 319
         y: 716
-        width: 16
-        height: 24
+        width: 14
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,10 +288,10 @@ TextureImporter:
       name: 28731_11
       rect:
         serializedVersion: 2
-        x: 318
-        y: 758
-        width: 16
-        height: 24
+        x: 319
+        y: 759
+        width: 14
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +302,10 @@ TextureImporter:
       name: 28731_12
       rect:
         serializedVersion: 2
-        x: 294
-        y: 741
-        width: 24
-        height: 16
+        x: 295
+        y: 742
+        width: 22
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,6 +544,146 @@ TextureImporter:
         y: 1755
         width: 14
         height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 28731_30
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 760
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 28731_31
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 829
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 28731_32
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 881
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 28731_33
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 866
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 28731_34
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1771
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 28731_35
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1771
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: riel
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 755
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 28731_36
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 746
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 28731_37
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 760
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 28731_38
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 811
+        width: 30
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

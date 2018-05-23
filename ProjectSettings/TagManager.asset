@@ -9,6 +9,12 @@ TagManager:
   - Puerta1
   - Puerta2
   - PuertaAlTemplo
+  - PuertaFinal
+  - CuartoFinal
+  - PuertaAConector
+  - NotaFinal
+  - Conector-3
+  - 3-Conector
   layers:
   - Default
   - TransparentFX

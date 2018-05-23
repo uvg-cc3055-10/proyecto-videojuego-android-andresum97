@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -169,6 +171,38 @@ public class PlayerMovement : MonoBehaviour
         if (collision.tag.Equals("Puerta2"))
         {
             transform.position = new Vector3(-52.11f, 37.79f, 0f);
+        }
+        if (collision.tag.Equals("PuertaAlTemplo"))
+        {
+            transform.position = new Vector3(-37.66f, 57.14f, 0f);
+        }
+        if (collision.tag.Equals("PuertaAConector"))
+        {
+            transform.position = new Vector3(-27.53f, 61.57f, 0f);
+        }
+
+        if (collision.tag.Equals("3-Conector"))
+        {
+            transform.position = new Vector3(-23.42f, 64.01f, 0f);
+        }
+
+        if (collision.tag.Equals("Conector-3"))
+        {
+            transform.position = new Vector3(-23.02f, 72.31f, 0f);
+        }
+
+        if (collision.tag.Equals("CuartoFinal"))
+        {
+            transform.position = new Vector3(-13.52f, 61.27f, 0f);
+        }
+
+        if (collision.tag.Equals("PuertaFinal"))
+        {
+            transform.position = new Vector3(-23.72f, 89.92f, 0f);
+        }
+        if (collision.tag.Equals("NotaFinal"))
+        {
+            SceneManager.LoadScene("Credits");
         }
     }
 

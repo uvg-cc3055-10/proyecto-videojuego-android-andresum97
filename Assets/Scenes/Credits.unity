@@ -360,7 +360,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 232485476}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.706238, y: 103.58746, z: -10}
+  m_LocalPosition: {x: -35.6, y: -94.7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -722,8 +722,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 112.29376, y: -268.81253}
-  m_SizeDelta: {x: 287.3, y: 401.2}
+  m_AnchoredPosition: {x: 112.29376, y: -279.9}
+  m_SizeDelta: {x: 287.3, y: 423.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1301809136
 MonoBehaviour:
@@ -778,7 +778,9 @@ MonoBehaviour:
     GUILLERMO SANDOVAL
 
 
-    ALBERTO URIZAR'
+    ALBERTO URIZAR
+
+    GUILLERMO SANDOVAL'
 --- !u!222 &1301809137
 CanvasRenderer:
   m_ObjectHideFlags: 0
